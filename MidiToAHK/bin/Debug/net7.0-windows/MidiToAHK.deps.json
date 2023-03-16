@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MidiToAHK/1.0.0": {
+        "dependencies": {
+          "AutoHotkey.Interop": "1.0.0.1",
+          "managed-midi": "1.10.1"
+        },
+        "runtime": {
+          "MidiToAHK.dll": {}
+        }
+      },
+      "AutoHotkey.Interop/1.0.0.1": {
+        "runtime": {
+          "lib/net45/AutoHotkey.Interop.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "managed-midi/1.10.1": {
+        "runtime": {
+          "lib/netcoreapp2.1/Commons.Music.Midi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp2.1/alsa-sharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MidiToAHK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoHotkey.Interop/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZeJLYFmNDthkw/xj0kKDiQYaBWNHb5q54CqGd71vZ/jggi0xGKoMUA5pVQmT5k/+ssy3WFDw5NcBlAqSr2gy2g==",
+      "path": "autohotkey.interop/1.0.0.1",
+      "hashPath": "autohotkey.interop.1.0.0.1.nupkg.sha512"
+    },
+    "managed-midi/1.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5k3IOpByUZku1kDDFLhD25NwogNeXipH7bPE2b+WIRwpJdntRuIv4NchZoI5AMZxTzzSZW6If/l9+zhLxzORgA==",
+      "path": "managed-midi/1.10.1",
+      "hashPath": "managed-midi.1.10.1.nupkg.sha512"
+    }
+  }
+}

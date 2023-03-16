@@ -1,0 +1,166 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "AutoHotkey.Interop/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoHotkey.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoHotkey.Interop.dll": {}
+        }
+      },
+      "NAudio.Core/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NAudio.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {}
+        }
+      },
+      "NAudio.Midi/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoHotkey.Interop/1.0.0.1": {
+      "sha512": "ZeJLYFmNDthkw/xj0kKDiQYaBWNHb5q54CqGd71vZ/jggi0xGKoMUA5pVQmT5k/+ssy3WFDw5NcBlAqSr2gy2g==",
+      "type": "package",
+      "path": "autohotkey.interop/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autohotkey.interop.1.0.0.1.nupkg.sha512",
+        "autohotkey.interop.nuspec",
+        "docs/README.md",
+        "images/icon.png",
+        "lib/net45/AutoHotkey.Interop.dll"
+      ]
+    },
+    "NAudio.Core/2.1.0": {
+      "sha512": "0iowfmolibU4KxjaC/s7lox/BeDg76UVvXtCuCzRiNpylVndqsxXxp+bVWFrpv0KzQDIKLxZrnDmYENlAI0u9g==",
+      "type": "package",
+      "path": "naudio.core/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Core.dll",
+        "naudio-icon.png",
+        "naudio.core.2.1.0.nupkg.sha512",
+        "naudio.core.nuspec"
+      ]
+    },
+    "NAudio.Midi/2.1.0": {
+      "sha512": "m2ZunnyZ1p7OoAMh1scHRVle+GiFuIRrzkcxZJREUFHje8O2hcMGya3ZAjD+dV2FTcrbqNQUc4kJy9LOTuydUw==",
+      "type": "package",
+      "path": "naudio.midi/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Midi.dll",
+        "naudio-icon.png",
+        "naudio.midi.2.1.0.nupkg.sha512",
+        "naudio.midi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "AutoHotkey.Interop >= 1.0.0.1",
+      "NAudio.Midi >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\timta\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\timta\\git\\midi-to-ahk-converter\\MidiToAHK\\MidiToAHK.csproj",
+      "projectName": "MidiToAHK",
+      "projectPath": "C:\\Users\\timta\\git\\midi-to-ahk-converter\\MidiToAHK\\MidiToAHK.csproj",
+      "packagesPath": "C:\\Users\\timta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timta\\git\\midi-to-ahk-converter\\MidiToAHK\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\timta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "AutoHotkey.Interop": {
+            "target": "Package",
+            "version": "[1.0.0.1, )"
+          },
+          "NAudio.Midi": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoHotkey.Interop 1.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoHotkey.Interop",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}
