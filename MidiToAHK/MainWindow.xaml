@@ -11,6 +11,6 @@
       <Button Click="Calibrate_Click">Calibrate AHK</Button>
       <Button Click="LoadMidi_Click">Select Midi</Button>
       <Button Click="ExecuteMidi_Click">Play Midi</Button>
-      <TextBlock>Press F12 to irreversibly exit AHK (you must restart the wpf program)</TextBlock>
+      <TextBlock>Press F12 to irreversibly exit AHK and press F11 to pause/unpause.</TextBlock>
     </StackPanel>
 </Window>
