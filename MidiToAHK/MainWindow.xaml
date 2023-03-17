@@ -1,12 +1,16 @@
 ﻿<Window x:Class="MidiToAHK.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MidiToAHK"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:MidiToAHK"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="300" Width="450"
+    Background="Pink">
+    <StackPanel HorizontalAlignment="Left">
+      <Button Click="Calibrate_Click">Calibrate AHK</Button>
+      <Button Click="LoadMidi_Click">Select Midi</Button>
+      <Button Click="ExecuteMidi_Click">Play Midi</Button>
+      <TextBlock>Press F12 to irreversibly exit AHK (you must restart the wpf program)</TextBlock>
+    </StackPanel>
 </Window>

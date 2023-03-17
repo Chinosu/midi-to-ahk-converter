@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "AutoHotkey.Interop/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoHotkey.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoHotkey.Interop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoHotkey.Interop/1.0.0.1": {
+      "sha512": "ZeJLYFmNDthkw/xj0kKDiQYaBWNHb5q54CqGd71vZ/jggi0xGKoMUA5pVQmT5k/+ssy3WFDw5NcBlAqSr2gy2g==",
+      "type": "package",
+      "path": "autohotkey.interop/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autohotkey.interop.1.0.0.1.nupkg.sha512",
+        "autohotkey.interop.nuspec",
+        "docs/README.md",
+        "images/icon.png",
+        "lib/net45/AutoHotkey.Interop.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "AutoHotkey.Interop >= 1.0.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\timta\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\timta\\git\\midi-to-ahk-converter\\t\\t.csproj",
+      "projectName": "t",
+      "projectPath": "C:\\Users\\timta\\git\\midi-to-ahk-converter\\t\\t.csproj",
+      "packagesPath": "C:\\Users\\timta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timta\\git\\midi-to-ahk-converter\\t\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\timta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "AutoHotkey.Interop": {
+            "target": "Package",
+            "version": "[1.0.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoHotkey.Interop 1.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoHotkey.Interop",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

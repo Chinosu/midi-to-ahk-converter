@@ -1,0 +1,17 @@
+C:\Users\timta\git\midi-to-ahk-converter\t\bin\Debug\net7.0\t.exe
+C:\Users\timta\git\midi-to-ahk-converter\t\bin\Debug\net7.0\t.deps.json
+C:\Users\timta\git\midi-to-ahk-converter\t\bin\Debug\net7.0\t.runtimeconfig.json
+C:\Users\timta\git\midi-to-ahk-converter\t\bin\Debug\net7.0\t.dll
+C:\Users\timta\git\midi-to-ahk-converter\t\bin\Debug\net7.0\t.pdb
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.csproj.AssemblyReference.cache
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.AssemblyInfoInputs.cache
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.AssemblyInfo.cs
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.csproj.CoreCompileInputs.cache
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.dll
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\refint\t.dll
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.pdb
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.genruntimeconfig.cache
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\ref\t.dll
+C:\Users\timta\git\midi-to-ahk-converter\t\bin\Debug\net7.0\AutoHotkey.Interop.dll
+C:\Users\timta\git\midi-to-ahk-converter\t\obj\Debug\net7.0\t.csproj.CopyComplete

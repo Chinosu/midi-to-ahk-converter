@@ -9,7 +9,7 @@
       "MidiToAHK/1.0.0": {
         "dependencies": {
           "AutoHotkey.Interop": "1.0.0.1",
-          "managed-midi": "1.10.1"
+          "NAudio.Midi": "2.1.0"
         },
         "runtime": {
           "MidiToAHK.dll": {}
@@ -23,15 +23,22 @@
           }
         }
       },
-      "managed-midi/1.10.1": {
+      "NAudio.Core/2.1.0": {
         "runtime": {
-          "lib/netcoreapp2.1/Commons.Music.Midi.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netcoreapp2.1/alsa-sharp.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NAudio.Midi/2.1.0": {
+        "dependencies": {
+          "NAudio.Core": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
           }
         }
       }
@@ -50,12 +57,19 @@
       "path": "autohotkey.interop/1.0.0.1",
       "hashPath": "autohotkey.interop.1.0.0.1.nupkg.sha512"
     },
-    "managed-midi/1.10.1": {
+    "NAudio.Core/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5k3IOpByUZku1kDDFLhD25NwogNeXipH7bPE2b+WIRwpJdntRuIv4NchZoI5AMZxTzzSZW6If/l9+zhLxzORgA==",
-      "path": "managed-midi/1.10.1",
-      "hashPath": "managed-midi.1.10.1.nupkg.sha512"
+      "sha512": "sha512-0iowfmolibU4KxjaC/s7lox/BeDg76UVvXtCuCzRiNpylVndqsxXxp+bVWFrpv0KzQDIKLxZrnDmYENlAI0u9g==",
+      "path": "naudio.core/2.1.0",
+      "hashPath": "naudio.core.2.1.0.nupkg.sha512"
+    },
+    "NAudio.Midi/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m2ZunnyZ1p7OoAMh1scHRVle+GiFuIRrzkcxZJREUFHje8O2hcMGya3ZAjD+dV2FTcrbqNQUc4kJy9LOTuydUw==",
+      "path": "naudio.midi/2.1.0",
+      "hashPath": "naudio.midi.2.1.0.nupkg.sha512"
     }
   }
 }

@@ -4,8 +4,6 @@ C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\Midi
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\MidiToAHK.dll
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\MidiToAHK.pdb
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\AutoHotkey.Interop.dll
-C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\Commons.Music.Midi.dll
-C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\alsa-sharp.dll
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\MidiToAHK.csproj.AssemblyReference.cache
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\MainWindow.g.cs
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\App.g.cs
@@ -23,3 +21,6 @@ C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\refi
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\MidiToAHK.pdb
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\MidiToAHK.genruntimeconfig.cache
 C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\ref\MidiToAHK.dll
+C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\NAudio.Core.dll
+C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\bin\Debug\net7.0-windows\NAudio.Midi.dll
+C:\Users\timta\git\midi-to-ahk-converter\MidiToAHK\obj\Debug\net7.0-windows\App.baml
